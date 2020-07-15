@@ -1,15 +1,5 @@
 '''
-Data came from https://kwt.bcwatertool.ca/streamflow
-For station Deadman River Above Criss Creek 08LF027
-From April 2013 to Jul 2020
-Download button click downloads file station-data-3819.csv
-station-data-3819.csv has 4 columns:
-* Analysis = Discharge (m3/s) (not used)
-* Datetime = mm/dd/yyyy (reformatted to yyyymmdd)
-* Value = float 2 decimals (used as is)
-* QA = 1 or 0 (not used)
-
-precip data file from get_precip.py csv output
+Merge flow and precip data for reporting and analysis
 '''
 import pandas as pd
 from config import dir_path

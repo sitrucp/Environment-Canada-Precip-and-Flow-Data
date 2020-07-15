@@ -1,12 +1,15 @@
-Environment and Climate Change Canada
+Get Station Id
+Environment Canada provides Google sheet listing stations with station name, station id, data availability start and end year and month. 
+https://docs.google.com/spreadsheets/d/1CQDjEv3Hf6FRzztKlVUSGtdCnJ0IxvYZMrA35EmKfAk/edit#gid=681791018
 
-Historical Climate Data
+Precipitation Data
+Comes from  https://climate.weather.gc.ca/climate_data/bulk_data_e.html
+Python method here uses requests to download csv files for multiple years/months for station id.
 
-Search and download data:
+Hydrometric Flow Data
+Download 'Hydrat' National Water Data Archive sqlite db which has historical flow and level data for all Canada stations
 
-https://climate.weather.gc.ca/historical_data/search_historic_data_e.html
+https://www.canada.ca/en/environment-climate-change/services/water-overview/quantity/monitoring/survey/data-products-services/national-archive-hydat.html
 
-Go to their data documentation folder 
 
-https://drive.google.com/drive/folders/1WJCDEU34c60IfOnG4rv5EPZ4IhhW9vZH
 
