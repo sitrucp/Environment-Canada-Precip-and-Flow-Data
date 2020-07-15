@@ -11,5 +11,4 @@ Download 'Hydrat' National Water Data Archive sqlite db which has historical flo
 
 https://www.canada.ca/en/environment-climate-change/services/water-overview/quantity/monitoring/survey/data-products-services/national-archive-hydat.html
 
-
-
+Read more about how this was used on my blog https://009co.com/?p=1165
